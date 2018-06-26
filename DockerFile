@@ -4,6 +4,9 @@
 # Pull base Python image.
 FROM python:3.6.5
 
+RUN \
+	pip install bottle
+
 # Define working directory.
 WORKDIR /app/
 

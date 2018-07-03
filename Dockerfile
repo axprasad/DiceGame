@@ -11,7 +11,7 @@ RUN \
 WORKDIR /app/
 
 # Copy the files into Docker Image
-COPY DiceGame.py MyApp.py  . 
+COPY DiceGame.py MyApp.py  /app/. 
 
 # Define default command.
 # What do you need to run when the container is runs.
